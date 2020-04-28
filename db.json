@@ -1,14 +1,377 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+    "auth": [
+      {
+        "id": 1,
+        "userId": "abc@gmail.com",
+        "password": "12345"
+      }
+    ],
+    "calendar_data": [
+      {
+        "id": "69c995fe-38eb-4219-915c-e8fb7ce9bf50",
+        "end": "2020-02-05T00:00:00.000Z",
+        "start": "2020-02-04T00:00:00.000Z",
+        "title": "mamta meeting"
+      }
+    ],
+    "year" : [
+      { 
+        "financial" : "2019-20",
+        "assessment" : "2020-21"
+      },
+    
+      { 
+        "financial" : "2018-19",
+        "assessment" : "2019-20"
+      } 
+    ],
+
+    "declaration" : [
+      { 
+        "userId": 1 ,
+        "grossIncome": 244490,
+        "exemptIncome" : 2500,
+        "standardDeductions": 24445,
+        "chapterDeductions":0,
+        "totalTaxableIncome":65246,
+        "totalTax": 46385,
+        "taxPaidTillDecember":0,
+        "balanceTaxPayable":46385
+      }
+    ],
+
+    "income" : [
+      {
+        "grossIncome" : 24356,
+        "houseProp" : "null",
+        "otherProp" : 0
+      }
+    ],
+
+    "exempt" : [
+      {
+        "tax" : 50000,
+        "hra" : 0,
+        "otherExem" : 0
+      }
+    ],
+
+    "savingOptions" : [
+    {
+      "taxSaving" : 0,
+      "section" : 0,
+      "otherDed" : 0
+    }
+    ],
+
+    "6A" : [
+      {
+        "amount" : 0,
+        "fy" : 0
+        
+      }
+    ],
+
+    "incomeElements" : [
+      {
+          "Earning" : {
+                      
+                        "Jan" : {
+                                 "hra" : 26000,
+                                 "basic" : 25000,
+                                 "allowance" : 24000,
+                                 "travel" : 23000
+                                },
+                        "Feb" : {
+                                 "hra" : 9699,
+                                 "basic" : 86999,
+                                 "allowance" : 96799,
+                                 "travel" : 67000
+                                },
+                        "Mar" : {
+                                 "hra" : 978999,
+                                 "basic" : 89599,
+                                 "allowance" : 999,
+                                 "travel" : 67900
+                                },
+                        "Apr" : {
+                                 "hra" : 9999,
+                                 "basic" : 8999,
+                                 "allowance" : 999,
+                                 "travel" : 68000
+                                },
+                        "May" : {
+                                 "hra" : 9999,
+                                 "basic" : 8999,
+                                 "allowance" : 999,
+                                 "travel" : 655700
+                                },
+                        "Jun" : {
+                                 "hra" : 9999,
+                                 "basic" : 8999,
+                                 "allowance" : 999,
+                                 "travel" : 65000
+                                },
+                        "Jul" : {
+                                 "hra" : 9999,
+                                 "basic" : 8999,
+                                 "allowance" : 999,
+                                 "travel" : 6400
+                                },
+                        "Aug" : {
+                                 "hra" : 9999,
+                                 "basic" : 8999,
+                                 "allowance" : 999,
+                                 "travel" : 62000
+                                },
+                        "Sep" : {
+                                 "hra" : 9999,
+                                 "basic" : 8999,
+                                 "allowance" : 999,
+                                 "travel" : 62000
+                                },
+                        "Oct" : {
+                                 "hra" : 9999,
+                                 "basic" : 8999,
+                                 "allowance" : 999,
+                                 "travel" : 62000
+                                },
+                        "Nov" : {
+                                 "hra" : 9999,
+                                 "basic" : 8999,
+                                 "allowance" : 999,
+                                 "travel" : 62000
+                                },
+                        "Dec" : {
+                                 "hra" : 9999,
+                                 "basic" : 8999,
+                                 "allowance" : 999,
+                                 "travel" : 62000
+                                }
+                        
+          },
+          "Reimbursements" : {
+                        
+                        "Jan" : {
+                                 "driver" : 22000,
+                                 "books" : 21000
+                                },
+                        "Feb" : {
+                                 "driver" : 9999,
+                                 "books" : 8999
+                                },
+                        "Mar" : {
+                                 "driver" : 9999,
+                                 "books" : 8999
+                                },
+                        "Apr":{
+                                 "driver" : 9999,
+                                 "books" : 8999
+                                },
+                        "May" : {
+                                 "driver" : 9999,
+                                 "books" : 8999
+                                },
+                        "Jun" : {
+                                 "driver" : 9999,
+                                 "books" : 8999
+                                },
+                        "Jul" : {
+                                 "driver" : 9999,
+                                 "books" : 8999
+                                },
+                        "Aug" : {
+                                 "driver" : 9999,
+                                 "books" : 8999
+                                },
+                        "Sep" : {
+                                 "driver" : 9999,
+                                 "books" : 8999
+                                },
+                        "Oct" : {
+                                 "driver" : 9999,
+                                 "books" : 8999
+                                },
+                        "Nov" : {
+                                 "driver" : 9999,
+                                 "books" : 8999
+                                },
+                        "Dec" : {
+                                 "driver" : 9999,
+                                 "books" : 8999
+                                }
+                  },
+                  
+          "Benefits" : {
+              
+                        "Jan" : {
+                                 "joining" : 19000,
+                                 "performance" : 18999
+                                },
+                        "Feb" : {
+                                 "joining" : 9999,
+                                 "performance" : 8999
+                                },
+                        "Mar" : {
+                                 "joining" : 9999,
+                                 "performance" : 8999
+                                },
+                        "Apr":{
+                                 "joining" : 9999,
+                                 "performance" : 8999
+                                },
+                        "May" : {
+                                 "joining" : 9999,
+                                 "performance" : 8999
+                                },
+                        "Jun" : {
+                                 "joining" : 9999,
+                                 "performance" : 8999
+                                },
+                        "Jul" : {
+                                "joining" : 9999,
+                                 "performance" : 8999
+                                },
+                        "Aug" : {
+                                 "joining" : 9999,
+                                 "performance" : 8999
+                                },
+                        "Sep" : {
+                                 "joining" : 9999,
+                                 "performance" : 8999
+                                },
+                        "Oct" : {
+                                 "joining" : 9999,
+                                 "performance" : 8999
+                                },
+                        "Nov" : {
+                                 "joining" : 9999,
+                                 "performance" : 8999
+                                },
+                        "Dec" : {
+                                 "joining" : 9999,
+                                 "performance" : 8999
+                                }
+                         }
+      }
+    ],
+
+    "tabName" : [
+      {
+       "label" : "Work Details",
+       "link" : "/working-details"
+      },
+      {
+        "label" : "Personal Information",
+        "link" : "/personal-info"
+      },
+      {
+        "label" : "Contact Details",
+        "link" : "/contact-details"
+      },
+      {
+        "label" : "Education and Skill",
+        "link" : "/work-exp"
+      },
+      {
+        "label" : "Work Experience",
+        "link" : "/education-skills"
+      },
+      {
+        "label" : "Bank Details",
+        "link" : "/bank-details"
+      },
+      {
+        "label" : "Emergency Details",
+        "link" : "/emergency-details"
+      }
+],
+
+"userInfo" : [{ 
+  "Employee_Name" : "Ankit Katiyar",
+  "Employee_Code" : "0011",
+  "Employee_Designation" : "Sr. Developer",
+  "Employee_Function" : "PE Team",
+  "Employee_Email" : "ankit.katiyar@gmail.com",
+  "Employee_Phone" : "+987654342",
+  "Employee_City" : "Gurgaon",
+  "Employee_State" : "Haryana",
+  "Employee_Country_Code" : "223395",
+  "Employee_Image" : "D:/Testfolder/Open_Project/src/assets/images/myProfileComponent/user-image-icon.png"
+  }],
+
+  "organisation" : [{ 
+    
+    "Designation" : "Sr. Developer",
+    "Date_of_joining" : "28 August,2017",
+    "Employee_type" : "Permanent",
+    "Company" : "Interteck Pvt. Ltd.",
+    "Business_unit" : "Corporate Head Office",
+    "Location" : "Gurgaon, Haryana",
+    "Function" : "Product Engneering",
+    "Grade" : "Grade 1 ",
+    "Grade_level" : "Level 1",
+    "role" : "Developer"
+  }],
+
+  "jobDesc" : [{
+
+    "role" : "Developer",
+    "role_profile" : "lorem",
+    "role_qualification" : "lorem",
+    "role_exp" : "3-4 years",
+    "skills_req" : "Very good technical knowledge of interior works: materials, works sequencing, workmanship Ability to review drawings and resolve technical issues at site Good understanding of MEP works and their coordination with interiors Able to schedule interior works, and their coordination with civil and MEP works (MS Project knowledge is a plus) Good leadership skills, ability to lead a team Proficient in MS Word and ability to read/use AutoCad drawings Good interpersonal and English communication skills (written &amp; spoken) Ability to prepare Minutes of Meeting",
+    "other_req" : "lorem"
+  }],
+
+  "workHistory": [{
+
+    "1, April, 2020" : {
+                        
+                "Location" : {
+                        "new"    : "Mumbai",
+                        "old"    : "Delhi"
+                            },
+                
+                "Employee Type" : {
+                        "new" : "Consultant",
+                        "old" : "Intern"
+                            },
+                
+                "Company" : {
+                        "new" : "Savant Groups",
+                        "old" : "RMZ"
+                          }
+                
+                },
+        
+    "Changed By" : "Jeanette Wood"
+    
+    },
+        
+     {   
+       "10, April, 2020" : {
+                        
+                     "Role" : {
+                  
+                        "new"    : "Developer",
+                        "old"    : "Tester"
+                          }
+                      },
+      "Changed By" : "Calinton leee"
+     },
+        
+      {
+        "30, April, 2020" : {
+                        
+                "Supervisor" : {
+                  
+                        "new"    : "Dollie Bell",
+                        "old"    : "Craig Clayton"
+                                }
+                      },
+                      
+        "Changed By" : "Craig Clayton"
+  }]
+    
 }
